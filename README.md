@@ -8,10 +8,14 @@ Git es un software utilizado para el control de versiones descentralizadas, dond
 
 ### Básicos de Git
 
-1. `git get --config`: **Permite ver la configuración del git**
+1. `git config`: **permite modificar la configuración del git**
     - ***Tags***
-        - `user.name`: **Nombre de usuario**
-        - `user.email`: **correo**
+        - `--global`: **Modifica aspectos globales de la configuración**
+
+1. `git get`: **Permite ver la configuración del git**
+    - ***Tags***
+        - `--config user.name`: **Nombre de usuario**
+        - `--config user.email`: **correo**
 
 1. `git clone [repository]`: **Permite clonar un repositorio de git en tu maquina local.**
 
@@ -28,10 +32,7 @@ Git es un software utilizado para el control de versiones descentralizadas, dond
         - `-am`: **Combina las etiquetas antes mencionadas**
         - `--amend`: **En lugar de crear una nueva confirmación, se modifica la creada con anterioridad**
 1. `git push`: **Realiza el envío de la snapshot al repositorio**
-    - ***tags***
-        - ``
 
 ## Github
 
 Es un repositorio online que recopila millones de proyectos de toda indole.
-v
